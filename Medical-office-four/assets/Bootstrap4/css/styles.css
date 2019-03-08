@@ -1,0 +1,3869 @@
+﻿/*================================= 
+        Font-Family's Start
+  =================================*/
+@font-face {
+    font-family: 'Prometo Light';
+    src: url('../../Fonts/Prometo Light.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Prometo Medium';
+    src: url('../../Fonts/Prometo Medium.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Prometo Regular';
+    src: url('../../Fonts/Prometo Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Prometo Black';
+    src: url('../../Fonts/Prometo Black.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Prometo Thin';
+    src: url('../../Fonts/Prometo Thin.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Prometo Bold';
+    src: url('../../Fonts/Prometo Bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Prometo XBold';
+    src: url('../../Fonts/Prometo XBold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'times';
+    src: url('../../Fonts/times.ttf') format('truetype');
+}
+
+
+/*================================= 
+        Font-Family's End
+  =================================*/
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth;
+}
+/*================================= 
+     Top Navbar Section Styling
+  =================================*/
+#top-nav {
+    padding: 28px 0px 0 90px;
+}
+
+.sleep {
+    padding: 15px 100px 15px 100px;
+    transition: all .4s ease-in-out;
+}
+
+.top-nav-add-bg-color {
+    border-radius: 50%;
+    padding: 6px 12px;
+    background-image: -moz-linear-gradient( 90deg, rgb(221,163,23) 0%, rgb(253,194,43) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(221,163,23) 0%, rgb(253,194,43) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(221,163,23) 0%, rgb(253,194,43) 100%);
+}
+
+.top-nav-heading {
+    color: #e2a616;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.mail-style {
+    color: #6a6a6a;
+    text-decoration: none;
+}
+
+    .mail-style:hover {
+        color: #6a6a6a;
+        text-decoration: none;
+    }
+
+.email-text {
+    color: #6a6a6a;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+.phone-number-text {
+    color: #6a6a6a;
+    font-size: 14px;
+    font-family: 'Prometo Medium';
+}
+
+#top-nav [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+    margin-left: 0;
+}
+/*================================= 
+          Navbar Styling
+  =================================*/
+#header-nav {
+    padding: 0px 81px 0px 68px;
+}
+
+.banner-content {
+    width: 100%;
+}
+
+.banner-text {
+    font-size: 58px;
+    color: #e6e6e6;
+    letter-spacing: 2px;
+    text-shadow: 3px 3px 3px #153141;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: 'Oswald', sans-serif;
+}
+
+.banner-bg-color {
+    margin-top: 7%;
+    background-color: rgba(17, 52, 58,0.6);
+    padding: 50px 0;
+}
+
+.nav-bg-color {
+    background-color: #ffffff;
+    width: 100%;
+    height: auto;
+}
+
+.nav-trans {
+    transition: padding 400ms linear;
+}
+
+#header-nav .active {
+    color: #e2a616 !important;
+    font-size: 21px !important;
+    font-weight: bold !important;
+    position: relative !important;
+    font-family: 'Prometo Bold' !important;
+}
+
+#header-nav .navbar-light .navbar-nav .nav-link {
+    color: #6c6c6c;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: 'Prometo Regular';
+}
+
+    #header-nav .navbar-light .navbar-nav .nav-link.scrolled {
+        color: #6c6c6c;
+        font-weight: 600;
+        font-size: 20px;
+        text-decoration: none;
+        background-color: transparent;
+        transition: font-size 400ms linear;
+        font-family: 'Prometo Regular';
+    }
+
+#HOME {
+    padding: 16% 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.navbar-brand .logoimage1 {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar-brand .logo1.scrolled {
+    margin-top: 0;
+    max-width: 81%;
+    color: #ffffff;
+    transition: width 400ms linear;
+}
+
+.nav-item {
+    position: relative;
+    padding: 0 10px;
+}
+
+.fixed-top.scrolled {
+    background-color: #060606;
+}
+
+.navbar-nav.scrolled {
+    margin-top: 0;
+    overflow: hidden;
+}
+
+#header-nav [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+    margin-left: 0;
+    font-size: 25px;
+}
+
+.main-banner-text {
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 0.734;
+    text-align: left;
+    text-shadow: 0px 3px 7px rgba(0, 0, 0, 0.5);
+    font-family: 'Noto Serif', serif;
+}
+
+.main-banner-desc {
+    font-size: 32px;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    text-shadow: 0px 3px 7px rgba(0, 0, 0, 0.5);
+    font-weight: 500;
+    font-family: 'Noto Serif', serif;
+}
+
+.main-banner-sub-heading {
+    color: #ffffff;
+    font-size: 16px;
+    text-align: left;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.link-style {
+    text-decoration: none;
+    color: #191919;
+}
+
+    .link-style:hover {
+        text-decoration: none;
+        color: #191919;
+    }
+
+.btn-contact {
+    border-radius: 28px;
+    width: 242px;
+    height: 57px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+    line-height: 45px;
+    text-transform: uppercase;
+    font-family: 'Prometo Bold';
+    background-image: -moz-linear-gradient( 90deg, rgb(221,163,23) 0%, rgb(253,194,43) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(221,163,23) 0%, rgb(253,194,43) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(221,163,23) 0%, rgb(253,194,43) 100%);
+}
+
+    .btn-contact:hover {
+        text-decoration: none;
+        color: #000000;
+    }
+
+.text-setting {
+    top: 120px;
+}
+
+#home .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #e2a616;
+}
+
+#home .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    width: 10px;
+    height: 10px;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    border-radius: 0px;
+}
+
+.owl-theme .owl-nav.disabled + .owl-dots {
+    margin-top: 10px;
+    position: absolute;
+    bottom: 14px;
+    left: 0;
+    right: 0;
+}
+/*================================= 
+      History Section Styling
+  =================================*/
+.history-text {
+    color: #231f20;
+    font-size: 50px;
+    font-family: 'Prometo Medium';
+}
+
+.below-pera {
+    position: relative;
+    line-height: 4rem;
+}
+
+    .below-pera:after {
+        content: '';
+        position: absolute;
+        display: block;
+        width: 22%;
+        border: 2px solid #dda317;
+        border-radius: 0px;
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+        -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+        -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+        left: 39%;
+    }
+
+.heading-pera-text {
+    color: #231f20;
+    font-size: 18px;
+    font-family: 'Prometo Regular';
+}
+
+.history-desc-text {
+    color: #637988;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.ceo-text {
+    color: #333333;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: 'Prometo Medium';
+}
+
+.ceo {
+    color: #333333;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: 'Prometo Bold';
+}
+/*================================= 
+      Welcome Section Styling
+  =================================*/
+#welcome {
+    background: #f0f5f9;
+    padding: 95px 0;
+}
+
+.welcome-pera {
+    color: #3d3d3d;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.below-welcome {
+    position: relative;
+    line-height: 2rem;
+}
+
+    .below-welcome:after {
+        content: '';
+        position: absolute;
+        display: block;
+        width: 14%;
+        border: 2px solid #dda317;
+        border-radius: 0px;
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+        -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+        -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+        left: 44%;
+        margin-top: 22px;
+    }
+
+.experience-text {
+    color: #e2a616;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.pharma-text {
+    color: #262626;
+    font-size: 38px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.welcome-sub-heading {
+    color: #3a3a3b;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.welcome-peragraph {
+    color: #656667;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.read-more-btn {
+    text-decoration: none;
+    color: #dda317;
+    font-size: 16px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+}
+
+    .read-more-btn:hover {
+        text-decoration: none;
+        color: #dda317;
+    }
+
+.heading-text {
+    color: #454545;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.heading-sub-text {
+    color: #747474;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.icon-color {
+    color: #dda317;
+}
+
+#welcome [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+    margin-left: 0;
+    font-size: 32px;
+}
+
+.arrow-style {
+    font-size: 20px;
+}
+/*================================= 
+     Chosse Section Styling
+  =================================*/
+#why-chosse {
+    padding: 40px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.chosse-text {
+    color: #262626;
+    font-size: 45px;
+    font-family: 'Prometo Bold';
+}
+
+.chosse-pera {
+    color: #3d3d3d;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.chosse-heading {
+    color: #111111;
+    font-size: 22px;
+    font-family: 'Prometo Bold';
+}
+
+.chosse-heading-pera {
+    color: #594b29;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+/*================================= 
+      Expert Section Styling
+  =================================*/
+#expert {
+    width: 100%;
+    padding: 100px 0;
+    background: #f0f5f9;
+}
+
+.expert-text {
+    color: #2d2d2d;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-family: 'Prometo Bold';
+}
+
+.progress-text {
+    color: #6a6a6a;
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.progress-text1 {
+    color: #6a6a6a;
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.h-40 {
+    height: 40px;
+}
+
+.progress-percentage-text {
+    color: #494949;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.progress-bar-setting {
+    height: 25px;
+    margin-top: 10px;
+    height: 16px;
+    margin-top: 13px;
+}
+
+#expert .icon-color {
+    color: #60ba60;
+}
+/*----------------- 3D Slider Styling ---------------------*/
+/*.d3-slider-img {
+    width: 486px;
+    height: 348px
+}*/
+
+.dp-wrap {
+    margin: 0 auto;
+    position: relative;
+    perspective: 1000px;
+    height: 100%;
+    z-index: 1;
+}
+
+.dp-slider {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+}
+
+    .dp-slider div {
+        transform-style: preserve-3d;
+    }
+
+.dp_item {
+    display: block;
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    border-radius: 10px;
+    transition: transform 1.2s;
+}
+
+/*.dp-img .d3-slider-img {
+    border-right: 5px solid #fff;
+}*/
+
+#dp-slider .dp_item:first-child {
+    z-index: 10 !important;
+    transform: rotateY(0deg) translateX(44px) !important;
+    margin-top: 16%;
+}
+
+.dp_item[data-position="2"] {
+    margin-top: 8%;
+    z-index: 9;
+    transform: rotateY(0deg) translateX(23%) translateY(-5%) scale(0.9);
+}
+
+.dp_item[data-position="3"] {
+    margin-top: 0%;
+    z-index: 8;
+    transform: rotateY(0deg) translateX(39%) translateY(-9%) scale(0.8);
+}
+
+/*================================= 
+        Work Section Styling
+  =================================*/
+#work {
+    padding: 50px 0;
+    width: 100%;
+    background: #ecebe3;
+}
+
+.work-text {
+    color: #262626;
+    font-size: 40px;
+    text-transform: capitalize;
+    font-family: 'Prometo Medium';
+}
+
+.work-pera-text {
+    color: #3d3d3d;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/**/
+#work .work-card {
+    padding: 50px 35px;
+    background: #ffffff;
+}
+
+    #work .work-card:hover {
+        background: #e0a619;
+        transition: all .5s ease-in-out;
+    }
+
+.idea-text {
+    color: #e0a619;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#work .active {
+    color: #ffffff;
+    background: #e0a619;
+}
+
+.card-pera-text {
+    color: #637988;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hr-line-y {
+    background: #e0a619;
+    width: 21%;
+    height: 2px;
+}
+
+.hr-line-w {
+    background: #ffffff;
+    width: 21%;
+    height: 2px;
+}
+
+/*-----------Heavy Nazam-----------*/
+#work .img-y {
+    display: inline-block;
+}
+
+#work .img-w {
+    display: none;
+}
+
+#work .work-card:hover .img-y {
+    display: none;
+}
+
+#work .work-card:hover .img-w {
+    display: inline-block;
+}
+
+#work .hr-line-y {
+    display: block;
+}
+
+#work .hr-line-w {
+    display: none;
+}
+
+#work .work-card:hover .hr-line-y {
+    display: none;
+}
+
+#work .work-card:hover .hr-line-w {
+    display: block;
+}
+
+#work .work-card:hover .idea-text {
+    color: #ffffff;
+}
+
+#work .work-card:hover .card-pera-text {
+    color: #48443b;
+}
+/*================================= 
+     News & Blog Section Styling
+  =================================*/
+.news-pera-text {
+    color: #1a1a1a;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'times';
+}
+
+#blog-news .news-text {
+    text-decoration: underline;
+    color: #e0a619;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#blog-news .date-text {
+    color: #555555;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#blog-news .card {
+    border: none;
+}
+
+#blog-news .card-body {
+    padding: 1.25rem 0;
+}
+
+.card-tag-bg-color {
+    bottom: 40%;
+    padding: 6px 30px 0px 30px;
+    background: #e0a619;
+}
+
+.tag-text {
+    color: #333333;
+    font-size: 21px;
+    font-family: 'Prometo Medium';
+}
+/*================================= 
+    Contact-us Section Styling
+  =================================*/
+#contact-us {
+    padding: 70px 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.message-text {
+    color: #ffffff;
+    font-size: 30px;
+    font-family: 'Prometo Bold';
+}
+
+.contact-pera-text {
+    color: #d3d4d4;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#contact-us .input-field {
+    padding: 16px;
+    width: 100%;
+    height: 60px;
+    border: 2px solid #ffffff;
+    border-radius: 0.125rem;
+    background: transparent;
+}
+
+#contact-us .textarea-field {
+    padding: 16px;
+    width: 100%;
+    border: 2px solid #ffffff;
+    border-radius: 0.125rem;
+    background: transparent;
+}
+
+#contact-us::placeholder {
+    color: #86898b !important;
+    font-size: 16px !important;
+    font-family: 'Prometo Medium' !important;
+}
+
+.btn-send {
+    width: 219px;
+    height: 63px;
+    font-weight: 800;
+    border-radius: 0px;
+    font-size: 18px;
+    color: #323331;
+    background-color: rgb(252, 193, 42);
+    font-family: 'Oswald', sans-serif;
+}
+
+.contact-text {
+    color: #515151;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contact-heading {
+    color: #000000;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Prometo Bold';
+}
+
+#second-contact .below-find {
+    position: relative;
+    line-height: 2rem;
+}
+
+    #second-contact .below-find:after {
+        content: '';
+        position: absolute;
+        display: block;
+        width: 14%;
+        border: 2px solid #dda317;
+        border-radius: 0px;
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+        -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+        -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+        left: 44%;
+        margin-top: 18px;
+    }
+
+.find-pera-text {
+    color: #707070;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.heading {
+    color: #131316;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Prometo Medium';
+}
+
+.desc {
+    color: #515151;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-family: 'Prometo Medium';
+}
+
+#second-contact [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+    font-size: 35px;
+    margin-left: 0;
+    color: #e0a619;
+}
+
+.footer-bg-color {
+    width: 100%;
+    padding: 30px 0;
+    background: #131a1d;
+}
+
+.footer-text {
+    color: #ffffff;
+    font-size: 24px;
+    font-family: 'Prometo Medium';
+}
+
+/*================================= 
+          Read More Styling
+  =================================*/
+.comments-space {
+    text-align: justify;
+}
+
+.remaining-contents span {
+    display: none;
+}
+
+.page-footer {
+    width: 100%;
+    height: auto;
+    background-color: #0d2124;
+}
+
+
+/*=================== Custome Margins ===================*/
+.mt--180 {
+    margin-top: -180px;
+}
+
+.mt--9 {
+    margin-top: -9px;
+}
+
+.mt-300 {
+    margin-top: 300px;
+}
+
+.mt-290 {
+    margin-top: 290px;
+}
+
+.mt-280 {
+    margin-top: 280px;
+}
+
+.mt-270 {
+    margin-top: 270px;
+}
+
+.mt-260 {
+    margin-top: 260px;
+}
+
+.mt-250 {
+    margin-top: 250px;
+}
+
+.mt-240 {
+    margin-top: 240px;
+}
+
+.mt-230 {
+    margin-top: 230px;
+}
+
+
+.mt-200 {
+    margin-top: 200px;
+}
+
+.mt-180 {
+    margin-top: 180px;
+}
+
+.mt-150 {
+    margin-top: 150px;
+}
+
+.mt-140 {
+    margin-top: 140px;
+}
+
+.mt-120 {
+    margin-top: 120px;
+}
+
+.mt-115 {
+    margin-top: 115px;
+}
+
+.mt-110 {
+    margin-top: 110px;
+}
+
+.mt-108 {
+    margin-top: 108px;
+}
+
+.mt-106 {
+    margin-top: 106px;
+}
+
+.mt-105 {
+    margin-top: 105px;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+.mt-99 {
+    margin-top: 99px;
+}
+
+.mt-98 {
+    margin-top: 98px;
+}
+
+.mt-97 {
+    margin-top: 97px;
+}
+
+.mt-96 {
+    margin-top: 96px;
+}
+
+.mt-95 {
+    margin-top: 95px;
+}
+
+.mt-94 {
+    margin-top: 94px;
+}
+
+.mt-93 {
+    margin-top: 93px;
+}
+
+.mt-90 {
+    margin-top: 90px;
+}
+
+.mt-89 {
+    margin-top: 89px;
+}
+
+.mt-88 {
+    margin-top: 88px;
+}
+
+.mt-87 {
+    margin-top: 87px;
+}
+
+.mt-86 {
+    margin-top: 86px;
+}
+
+.mt-85 {
+    margin-top: 85px;
+}
+
+.mt-84 {
+    margin-top: 84px;
+}
+
+.mt-83 {
+    margin-top: 83px;
+}
+
+.mt-80 {
+    margin-top: 80px;
+}
+
+.mt-75 {
+    margin-top: 75px;
+}
+
+.mt-74 {
+    margin-top: 74px;
+}
+
+.mt-73 {
+    margin-top: 73px;
+}
+
+.mt-70 {
+    margin-top: 70px;
+}
+
+.mt-65 {
+    margin-top: 65px;
+}
+
+.mt-60 {
+    margin-top: 60px;
+}
+
+.mt-55 {
+    margin-top: 55px;
+}
+
+.mt-53 {
+    margin-top: 53px;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.mt-49 {
+    margin-top: 49px;
+}
+
+.mt-48 {
+    margin-top: 48px;
+}
+
+.mt-47 {
+    margin-top: 47px;
+}
+
+.mt-46 {
+    margin-top: 46px;
+}
+
+.mt-45 {
+    margin-top: 45px;
+}
+
+.mt-44 {
+    margin-top: 44px;
+}
+
+.mt-43 {
+    margin-top: 43px;
+}
+
+.mt-42 {
+    margin-top: 42px;
+}
+
+.mt-41 {
+    margin-top: 41px;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.mt-38 {
+    margin-top: 38px;
+}
+
+.mt-35 {
+    margin-top: 35px;
+}
+
+.mt-34 {
+    margin-top: 34px;
+}
+
+.mt-33 {
+    margin-top: 32px;
+}
+
+.mt-32 {
+    margin-top: 32px;
+}
+
+.mt-31 {
+    margin-top: 31px;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.mt-29 {
+    margin-top: 29px;
+}
+
+.mt-28 {
+    margin-top: 28px;
+}
+
+.mt-27 {
+    margin-top: 27px;
+}
+
+.mt-26 {
+    margin-top: 26px;
+}
+
+.mt-25 {
+    margin-top: 25px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-15 {
+    margin-top: 15px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+/*=========== Margin Bottom ===========*/
+.mb-100 {
+    margin-bottom: 100px;
+}
+
+.mb-110 {
+    margin-bottom: 110px;
+}
+
+.mb-160 {
+    margin-bottom: 160px;
+}
+
+.b-50 {
+    bottom: 50px;
+}
+
+.b-30 {
+    bottom: 30px;
+}
+/*================ Margin-Left ===================*/
+.ml-23 {
+    margin-left: 23px;
+}
+
+.ml-77 {
+    margin-left: 77%;
+}
+/*================ Padding-Top ===================*/
+.pt-120 {
+    padding-top: 120px;
+}
+
+.pt-100 {
+    padding-top: 100px;
+}
+
+
+
+/*======= Some Commen Styling ======*/
+
+
+button:focus {
+    outline: none;
+    outline: none;
+}
+
+.btn-load-more {
+    width: 173px;
+    height: 52px;
+    font-size: 17px;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    border: none;
+    border-radius: 26px;
+    background: #ed1c43;
+}
+
+    .btn-load-more:hover {
+        background: #ed1c43;
+    }
+
+
+.btn-r-0 {
+    border-radius: 0px !important;
+}
+
+.btn:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+:focus {
+    outline: -webkit-focus-ring-color auto 0px;
+}
+
+.btn:focus, .btn.focus {
+    outline: 0;
+    box-shadow: none !important;
+}
+
+.display-brand {
+    display: none;
+}
+
+.fixed-top {
+    transition: all .8s ease-in-out;
+}
+
+
+/*================ Media Query ===============*/
+@media screen and (max-width: 1500px) {
+}
+
+@media screen and (max-width: 1367px) {
+}
+
+@media screen and (max-width: 1024px) {
+    .display-brand {
+        display: none;
+    }
+
+    .owl-carousel .owl-item img {
+        height: 30vh;
+        display: block;
+        width: 100%;
+    }
+
+    .email-text {
+        font-size: 13px;
+    }
+
+    .phone-number-text {
+        font-size: 13px;
+    }
+
+    .dp_item[data-position="2"] {
+        transform: rotateY(0deg) translateX(28%) translateY(-5%) scale(0.9);
+    }
+
+    .media-sign-width {
+        width: 30%;
+    }
+
+    .media-slider-padding {
+        padding: 0 0px 0 0;
+    }
+
+    #top-nav {
+        padding: 18px 0px 0 2%;
+    }
+
+    .text-setting {
+        top: 30px;
+    }
+
+    .main-banner-text {
+        font-size: 40px;
+    }
+
+    .main-banner-desc {
+        font-size: 22px;
+    }
+
+    .media-top-mt {
+        margin-top: 0px;
+    }
+
+    #header-nav {
+        padding: 0px 2px 0px 8px;
+    }
+
+    .sleep {
+        padding: 10px 15px 7px 8px;
+    }
+
+    .media-history-padding {
+        padding: 0rem;
+    }
+
+    .history-text {
+        font-size: 26px;
+    }
+
+    .heading-pera-text {
+        font-size: 15px;
+    }
+
+    .below-pera {
+        line-height: 1.7rem;
+    }
+
+    .media-cap-img-width {
+        text-align: center;
+        width: 100%;
+    }
+
+    .history-desc-text {
+        font-size: 15px;
+    }
+
+    .mt-100 {
+        margin-top: 40px;
+    }
+
+    .mt-60 {
+        margin-top: 30px;
+    }
+
+    #welcome {
+        padding: 38px 0;
+    }
+
+    .welcome-pera {
+        font-size: 18px;
+    }
+
+    .experience-text {
+        font-size: 18px;
+    }
+
+    .pharma-text {
+        font-size: 22px;
+    }
+
+    .welcome-sub-heading {
+        font-size: 16px;
+    }
+
+    .welcome-peragraph {
+        font-size: 16px;
+    }
+
+    .read-more-btn {
+        font-size: 15px;
+    }
+
+    .mt-90 {
+        margin-top: 20px;
+    }
+
+    .chosse-text {
+        font-size: 26px;
+    }
+
+    .chosse-pera {
+        font-size: 15px;
+    }
+
+    .chosse-heading {
+        font-size: 18px;
+    }
+
+
+    .d3-slider-img {
+        width: 300px;
+        height: 402px
+    }
+
+    #expert {
+        height: 43vh;
+        padding: 55px 14px 55px 0;
+    }
+
+    .media-expert-sliedr-mt {
+        margin-top: 30px;
+    }
+
+    .expert-text {
+        font-size: 25px;
+    }
+
+    .media-padding {
+        padding: 0rem;
+    }
+
+    .idea-text {
+        font-size: 21px;
+        letter-spacing: 2px;
+    }
+
+    .card-pera-text {
+        font-size: 14px;
+    }
+
+    .work-text {
+        font-size: 20px;
+    }
+
+    #contact-us {
+        padding: 35px 0;
+    }
+
+    .message-text {
+        font-size: 22px;
+    }
+
+    .contact-heading {
+        font-size: 22px;
+    }
+
+    .mt-80 {
+        margin-top: 20px;
+    }
+
+    .heading {
+        font-size: 16px;
+    }
+
+    .desc {
+        font-size: 16px;
+    }
+
+    .footer-bg-color {
+        padding: 20px 0;
+    }
+
+    .footer-text {
+        font-size: 16px;
+    }
+
+    .btn-contact {
+        width: 173px;
+        height: 49px;
+        font-size: 15px;
+        line-height: 36px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .owl-carousel .owl-item img {
+        height: 33vh;
+        display: block;
+        width: 100%;
+    }
+
+    .dp_item[data-position="2"] {
+        transform: rotateY(0deg) translateX(28%) translateY(-5%) scale(0.9);
+    }
+
+    .media-sign-width {
+        width: 30%;
+    }
+
+    .media-slider-padding {
+        padding: 0 0px 0 0;
+    }
+
+    .display-brand {
+        display: block;
+    }
+
+    #top-nav {
+        padding: 18px 0px 0 32%;
+    }
+
+    .text-setting {
+        top: 30px;
+    }
+
+    .main-banner-text {
+        font-size: 40px;
+    }
+
+    .main-banner-desc {
+        font-size: 22px;
+    }
+
+    .media-top-mt {
+        margin-top: 18px;
+    }
+
+    #header-nav {
+        padding: 0px 2px 0px 8px;
+    }
+
+    .sleep {
+        padding: 10px 15px 7px 8px;
+    }
+
+    .media-history-padding {
+        padding: 0rem;
+    }
+
+    .history-text {
+        font-size: 26px;
+    }
+
+    .heading-pera-text {
+        font-size: 15px;
+    }
+
+    .below-pera {
+        line-height: 1.7rem;
+    }
+
+    .media-cap-img-width {
+        text-align: center;
+        width: 100%;
+    }
+
+    .history-desc-text {
+        font-size: 15px;
+    }
+
+    .mt-100 {
+        margin-top: 40px;
+    }
+
+    .mt-60 {
+        margin-top: 30px;
+    }
+
+    #welcome {
+        padding: 38px 0;
+    }
+
+    .welcome-pera {
+        font-size: 18px;
+    }
+
+    .experience-text {
+        font-size: 18px;
+    }
+
+    .pharma-text {
+        font-size: 22px;
+    }
+
+    .welcome-sub-heading {
+        font-size: 16px;
+    }
+
+    .welcome-peragraph {
+        font-size: 16px;
+    }
+
+    .read-more-btn {
+        font-size: 15px;
+    }
+
+    .mt-90 {
+        margin-top: 20px;
+    }
+
+    .chosse-text {
+        font-size: 26px;
+    }
+
+    .chosse-pera {
+        font-size: 15px;
+    }
+
+    .chosse-heading {
+        font-size: 18px;
+    }
+
+
+    .d3-slider-img {
+        width: 300px;
+        height: 402px
+    }
+
+    #expert {
+        height: 45vh;
+        padding: 55px 14px 55px 0;
+    }
+
+    .media-expert-sliedr-mt {
+        margin-top: 30px;
+    }
+
+    .expert-text {
+        font-size: 25px;
+    }
+
+    .media-padding {
+        padding: 0rem;
+    }
+
+    .idea-text {
+        font-size: 21px;
+        letter-spacing: 2px;
+    }
+
+    .card-pera-text {
+        font-size: 14px;
+    }
+
+    .work-text {
+        font-size: 20px;
+    }
+
+    #contact-us {
+        padding: 35px 0;
+    }
+
+    .message-text {
+        font-size: 22px;
+    }
+
+    .contact-heading {
+        font-size: 22px;
+    }
+
+    .mt-80 {
+        margin-top: 20px;
+    }
+
+    .heading {
+        font-size: 16px;
+    }
+
+    .desc {
+        font-size: 16px;
+    }
+
+    .footer-bg-color {
+        padding: 20px 0;
+    }
+
+    .footer-text {
+        font-size: 16px;
+    }
+
+    .btn-contact {
+        width: 173px;
+        height: 49px;
+        font-size: 15px;
+        line-height: 36px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .owl-carousel .owl-item img {
+        height: 42vh;
+        display: block;
+        width: 100%;
+    }
+
+    .dp_item[data-position="2"] {
+        transform: rotateY(0deg) translateX(28%) translateY(-5%) scale(0.9);
+    }
+
+    .media-sign-width {
+        width: 30%;
+    }
+
+    .media-slider-padding {
+        padding: 0 0px 0 0;
+    }
+
+    .display-brand {
+        display: block;
+    }
+
+    #top-nav {
+        padding: 18px 0px 0 32%;
+    }
+
+    .text-setting {
+        top: 30px;
+    }
+
+    .main-banner-text {
+        font-size: 40px;
+    }
+
+    .main-banner-desc {
+        font-size: 22px;
+    }
+
+    .media-top-mt {
+        margin-top: 18px;
+    }
+
+    #header-nav {
+        padding: 0px 2px 0px 8px;
+    }
+
+    .sleep {
+        padding: 10px 15px 7px 8px;
+    }
+
+    .media-history-padding {
+        padding: 0rem;
+    }
+
+    .history-text {
+        font-size: 26px;
+    }
+
+    .heading-pera-text {
+        font-size: 15px;
+    }
+
+    .below-pera {
+        line-height: 1.7rem;
+    }
+
+    .media-cap-img-width {
+        text-align: center;
+        width: 100%;
+    }
+
+    .history-desc-text {
+        font-size: 15px;
+    }
+
+    .mt-100 {
+        margin-top: 40px;
+    }
+
+    .mt-60 {
+        margin-top: 30px;
+    }
+
+    #welcome {
+        padding: 38px 0;
+    }
+
+    .welcome-pera {
+        font-size: 18px;
+    }
+
+    .experience-text {
+        font-size: 18px;
+    }
+
+    .pharma-text {
+        font-size: 22px;
+    }
+
+    .welcome-sub-heading {
+        font-size: 16px;
+    }
+
+    .welcome-peragraph {
+        font-size: 16px;
+    }
+
+    .read-more-btn {
+        font-size: 15px;
+    }
+
+    .mt-90 {
+        margin-top: 20px;
+    }
+
+    .chosse-text {
+        font-size: 26px;
+    }
+
+    .chosse-pera {
+        font-size: 15px;
+    }
+
+    .chosse-heading {
+        font-size: 18px;
+    }
+
+
+    .d3-slider-img {
+        width: 300px;
+        height: 402px
+    }
+
+    #expert {
+        height: 56vh;
+        padding: 55px 14px 55px 0;
+    }
+
+    .media-expert-sliedr-mt {
+        margin-top: 30px;
+    }
+
+    .expert-text {
+        font-size: 25px;
+    }
+
+    .media-padding {
+        padding: 0rem;
+    }
+
+    .idea-text {
+        font-size: 21px;
+        letter-spacing: 2px;
+    }
+
+    .card-pera-text {
+        font-size: 14px;
+    }
+
+    .work-text {
+        font-size: 20px;
+    }
+
+    #contact-us {
+        padding: 35px 0;
+    }
+
+    .message-text {
+        font-size: 22px;
+    }
+
+    .contact-heading {
+        font-size: 22px;
+    }
+
+    .mt-80 {
+        margin-top: 20px;
+    }
+
+    .heading {
+        font-size: 16px;
+    }
+
+    .desc {
+        font-size: 16px;
+    }
+
+    .footer-bg-color {
+        padding: 20px 0;
+    }
+
+    .footer-text {
+        font-size: 16px;
+    }
+
+    .btn-contact {
+        width: 173px;
+        height: 49px;
+        font-size: 15px;
+        line-height: 36px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .mt-60 {
+        margin-top: 35px;
+    }
+
+    .media-sign-width {
+        width: 60%;
+    }
+
+    .owl-carousel .owl-item img {
+        height: 65vh;
+        display: block;
+        width: 100%;
+    }
+
+    .media-slider-padding {
+        padding: 0 40px 0 0;
+    }
+
+    .display-brand {
+        display: block;
+    }
+
+    #top-nav {
+        padding: 18px 0px 0 56px;
+    }
+
+    .text-setting {
+        top: 30px;
+    }
+
+    .main-banner-text {
+        font-size: 30px;
+    }
+
+    .main-banner-desc {
+        font-size: 18px;
+    }
+
+    .media-top-mt {
+        margin-top: 18px;
+    }
+
+    #header-nav {
+        padding: 0px 2px 0px 8px;
+    }
+
+    .sleep {
+        padding: 10px 15px 7px 8px;
+    }
+
+    .media-history-padding {
+        padding: 1.5rem;
+    }
+
+    .history-text {
+        font-size: 26px;
+    }
+
+    .heading-pera-text {
+        font-size: 15px;
+    }
+
+    .below-pera {
+        line-height: 1.7rem;
+    }
+
+    .media-cap-img-width {
+        text-align: center;
+        width: 37%;
+    }
+
+    .history-desc-text {
+        font-size: 15px;
+    }
+
+    .mt-100 {
+        margin-top: 40px;
+    }
+
+    #welcome {
+        padding: 38px 0;
+    }
+
+    .welcome-pera {
+        font-size: 18px;
+    }
+
+    .experience-text {
+        font-size: 18px;
+    }
+
+    .pharma-text {
+        font-size: 24px;
+    }
+
+    .welcome-sub-heading {
+        font-size: 16px;
+    }
+
+    .welcome-peragraph {
+        font-size: 16px;
+    }
+
+    .read-more-btn {
+        font-size: 15px;
+    }
+
+    .mt-90 {
+        margin-top: 20px;
+    }
+
+    .chosse-text {
+        font-size: 26px;
+    }
+
+    .chosse-pera {
+        font-size: 15px;
+    }
+
+    .chosse-heading {
+        font-size: 20px;
+    }
+
+    .d3-slider-img {
+        width: 240px;
+        height: 300px
+    }
+
+    #dp-slider .dp_item:first-child {
+        transform: rotateY(0deg) translateX(14px) !important;
+    }
+
+    #expert {
+        height: 120vh;
+        padding: 55px 14px 55px 0;
+    }
+
+    .media-expert-sliedr-mt {
+        margin-top: 30px;
+    }
+
+    .expert-text {
+        font-size: 25px;
+    }
+
+    .media-padding {
+        padding: 1rem;
+    }
+
+    .work-text {
+        padding: 1rem;
+        font-size: 25px;
+    }
+
+    #contact-us {
+        padding: 35px 0;
+    }
+
+    .message-text {
+        font-size: 22px;
+    }
+
+    .contact-heading {
+        font-size: 22px;
+    }
+
+    .mt-80 {
+        margin-top: 20px;
+    }
+
+    .heading {
+        font-size: 18px;
+    }
+
+    .desc {
+        font-size: 18px;
+    }
+
+    .footer-bg-color {
+        padding: 20px 0;
+    }
+
+    .footer-text {
+        font-size: 16px;
+    }
+
+    .btn-contact {
+        width: 173px;
+        height: 49px;
+        font-size: 15px;
+        line-height: 36px;
+    }
+}
+
+@media screen and (max-width: 411px) {
+    .mt-60 {
+        margin-top: 35px;
+    }
+
+    .media-sign-width {
+        width: 60%;
+    }
+
+    .owl-carousel .owl-item img {
+        height: 66vh;
+        display: block;
+        width: 100%;
+    }
+
+    .media-slider-padding {
+        padding: 0 40px 0 0;
+    }
+
+    .display-brand {
+        display: block;
+    }
+
+    #top-nav {
+        padding: 18px 0px 0 56px;
+    }
+
+    .text-setting {
+        top: 30px;
+    }
+
+    .main-banner-text {
+        font-size: 30px;
+    }
+
+    .main-banner-desc {
+        font-size: 18px;
+    }
+
+    .media-top-mt {
+        margin-top: 18px;
+    }
+
+    #header-nav {
+        padding: 0px 2px 0px 8px;
+    }
+
+    .sleep {
+        padding: 10px 15px 7px 8px;
+    }
+
+    .media-history-padding {
+        padding: 1.5rem;
+    }
+
+    .history-text {
+        font-size: 26px;
+    }
+
+    .heading-pera-text {
+        font-size: 15px;
+    }
+
+    .below-pera {
+        line-height: 1.7rem;
+    }
+
+    .media-cap-img-width {
+        text-align: center;
+        width: 37%;
+    }
+
+    .history-desc-text {
+        font-size: 15px;
+    }
+
+    .mt-100 {
+        margin-top: 40px;
+    }
+
+    #welcome {
+        padding: 38px 0;
+    }
+
+    .welcome-pera {
+        font-size: 18px;
+    }
+
+    .experience-text {
+        font-size: 18px;
+    }
+
+    .pharma-text {
+        font-size: 24px;
+    }
+
+    .welcome-sub-heading {
+        font-size: 16px;
+    }
+
+    .welcome-peragraph {
+        font-size: 16px;
+    }
+
+    .read-more-btn {
+        font-size: 15px;
+    }
+
+    .mt-90 {
+        margin-top: 20px;
+    }
+
+    .chosse-text {
+        font-size: 26px;
+    }
+
+    .chosse-pera {
+        font-size: 15px;
+    }
+
+    .chosse-heading {
+        font-size: 20px;
+    }
+
+    .d3-slider-img {
+        width: 240px;
+        height: 300px
+    }
+
+    #dp-slider .dp_item:first-child {
+        transform: rotateY(0deg) translateX(14px) !important;
+    }
+
+    #expert {
+        height: 121vh;
+        padding: 55px 14px 55px 0;
+    }
+
+    .media-expert-sliedr-mt {
+        margin-top: 30px;
+    }
+
+    .expert-text {
+        font-size: 25px;
+    }
+
+    .media-padding {
+        padding: 1rem;
+    }
+
+    .work-text {
+        padding: 1rem;
+        font-size: 25px;
+    }
+
+    #contact-us {
+        padding: 35px 0;
+    }
+
+    .message-text {
+        font-size: 22px;
+    }
+
+    .contact-heading {
+        font-size: 22px;
+    }
+
+    .mt-80 {
+        margin-top: 20px;
+    }
+
+    .heading {
+        font-size: 18px;
+    }
+
+    .desc {
+        font-size: 18px;
+    }
+
+    .footer-bg-color {
+        padding: 20px 0;
+    }
+
+    .footer-text {
+        font-size: 16px;
+    }
+
+    .btn-contact {
+        width: 173px;
+        height: 49px;
+        font-size: 15px;
+        line-height: 36px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .mt-60 {
+        margin-top: 35px;
+    }
+
+    .media-sign-width {
+        width: 60%;
+    }
+
+    .owl-carousel .owl-item img {
+        height: 60vh;
+        display: block;
+        width: 100%;
+    }
+
+    .media-slider-padding {
+        padding: 0 40px 0 0;
+    }
+
+    .display-brand {
+        display: block;
+    }
+
+    #top-nav {
+        padding: 18px 0px 0 56px;
+    }
+
+    .text-setting {
+        top: 30px;
+    }
+
+    .main-banner-text {
+        font-size: 30px;
+    }
+
+    .main-banner-desc {
+        font-size: 18px;
+    }
+
+    .media-top-mt {
+        margin-top: 18px;
+    }
+
+    #header-nav {
+        padding: 0px 2px 0px 8px;
+    }
+
+    .sleep {
+        padding: 10px 15px 7px 8px;
+    }
+
+    .media-history-padding {
+        padding: 1.5rem;
+    }
+
+    .history-text {
+        font-size: 26px;
+    }
+
+    .heading-pera-text {
+        font-size: 15px;
+    }
+
+    .below-pera {
+        line-height: 1.7rem;
+    }
+
+    .media-cap-img-width {
+        text-align: center;
+        width: 37%;
+    }
+
+    .history-desc-text {
+        font-size: 15px;
+    }
+
+    .mt-100 {
+        margin-top: 40px;
+    }
+
+    #welcome {
+        padding: 38px 0;
+    }
+
+    .welcome-pera {
+        font-size: 18px;
+    }
+
+    .experience-text {
+        font-size: 18px;
+    }
+
+    .pharma-text {
+        font-size: 24px;
+    }
+
+    .welcome-sub-heading {
+        font-size: 16px;
+    }
+
+    .welcome-peragraph {
+        font-size: 16px;
+    }
+
+    .read-more-btn {
+        font-size: 15px;
+    }
+
+    .mt-90 {
+        margin-top: 20px;
+    }
+
+    .chosse-text {
+        font-size: 26px;
+    }
+
+    .chosse-pera {
+        font-size: 15px;
+    }
+
+    .chosse-heading {
+        font-size: 20px;
+    }
+
+    .d3-slider-img {
+        width: 240px;
+        height: 300px
+    }
+
+    #expert {
+        height: 108vh;
+        padding: 55px 14px 55px 0;
+    }
+
+    .media-expert-sliedr-mt {
+        margin-top: 30px;
+    }
+
+    .expert-text {
+        font-size: 25px;
+    }
+
+    .media-padding {
+        padding: 1rem;
+    }
+
+    .work-text {
+        padding: 1rem;
+        font-size: 25px;
+    }
+
+    #contact-us {
+        padding: 35px 0;
+    }
+
+    .message-text {
+        font-size: 22px;
+    }
+
+    .contact-heading {
+        font-size: 22px;
+    }
+
+    .mt-80 {
+        margin-top: 20px;
+    }
+
+    .heading {
+        font-size: 18px;
+    }
+
+    .desc {
+        font-size: 18px;
+    }
+
+    .footer-bg-color {
+        padding: 20px 0;
+    }
+
+    .footer-text {
+        font-size: 16px;
+    }
+
+    .btn-contact {
+        width: 173px;
+        height: 49px;
+        font-size: 15px;
+        line-height: 36px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .mt-60 {
+        margin-top: 35px;
+    }
+
+    .dp_item[data-position="2"] {
+        transform: rotateY(0deg) translateX(23%) translateY(-5%) scale(0.9);
+    }
+
+    .media-sign-width {
+        width: 60%;
+    }
+
+    .owl-carousel .owl-item img {
+        height: 84vh;
+        display: block;
+        width: 100%;
+    }
+
+    .media-slider-padding {
+        padding: 0 40px 0 0;
+    }
+
+    .display-brand {
+        display: block;
+    }
+
+    #top-nav {
+        padding: 18px 0px 0 56px;
+    }
+
+    .text-setting {
+        top: 30px;
+    }
+
+    .main-banner-text {
+        font-size: 30px;
+    }
+
+    .main-banner-desc {
+        font-size: 18px;
+    }
+
+    .media-top-mt {
+        margin-top: 18px;
+    }
+
+    #header-nav {
+        padding: 0px 2px 0px 8px;
+    }
+
+    .sleep {
+        padding: 10px 15px 7px 8px;
+    }
+
+    .media-history-padding {
+        padding: 1.5rem;
+    }
+
+    .history-text {
+        font-size: 26px;
+    }
+
+    .heading-pera-text {
+        font-size: 15px;
+    }
+
+    .below-pera {
+        line-height: 1.7rem;
+    }
+
+    .media-cap-img-width {
+        text-align: center;
+        width: 37%;
+    }
+
+    .history-desc-text {
+        font-size: 15px;
+    }
+
+    .mt-100 {
+        margin-top: 40px;
+    }
+
+    #welcome {
+        padding: 38px 0;
+    }
+
+    .welcome-pera {
+        font-size: 18px;
+    }
+
+    .experience-text {
+        font-size: 18px;
+    }
+
+    .pharma-text {
+        font-size: 24px;
+    }
+
+    .welcome-sub-heading {
+        font-size: 16px;
+    }
+
+    .welcome-peragraph {
+        font-size: 16px;
+    }
+
+    .read-more-btn {
+        font-size: 15px;
+    }
+
+    .mt-90 {
+        margin-top: 20px;
+    }
+
+    .chosse-text {
+        font-size: 26px;
+    }
+
+    .chosse-pera {
+        font-size: 15px;
+    }
+
+    .chosse-heading {
+        font-size: 20px;
+    }
+
+    .d3-slider-img {
+        width: 240px;
+        height: 300px
+    }
+
+    #expert {
+        height: 134vh;
+        padding: 55px 14px 55px 0;
+    }
+
+    .media-expert-sliedr-mt {
+        margin-top: 30px;
+    }
+
+    .expert-text {
+        font-size: 25px;
+    }
+
+    .media-padding {
+        padding: 1rem;
+    }
+
+    .work-text {
+        padding: 1rem;
+        font-size: 25px;
+    }
+
+    #contact-us {
+        padding: 35px 0;
+    }
+
+    .message-text {
+        font-size: 22px;
+    }
+
+    .contact-heading {
+        font-size: 22px;
+    }
+
+    .mt-80 {
+        margin-top: 20px;
+    }
+
+    .heading {
+        font-size: 18px;
+    }
+
+    .desc {
+        font-size: 18px;
+    }
+
+    .footer-bg-color {
+        padding: 20px 0;
+    }
+
+    .footer-text {
+        font-size: 16px;
+    }
+
+    .btn-contact {
+        width: 173px;
+        height: 49px;
+        font-size: 15px;
+        line-height: 36px;
+    }
+}
+
+
+
+/*==================== Media Query For Land Scape Mode =====================*/
+@media screen and (max-width: 1500px) and (orientation: landscape) {
+}
+
+@media screen and (max-width: 1024px) and (orientation: landscape) {
+    .owl-carousel .owl-item img {
+        height: 56vh;
+    }
+
+    .display-brand {
+        display: none;
+    }
+
+    #expert {
+        height: 76vh;
+        padding: 55px 14px 55px 0;
+    }
+}
+
+@media screen and (max-width: 823px) and (orientation: landscape) {
+    .owl-carousel .owl-item img {
+        height: 110vh;
+        display: block;
+        width: 100%;
+    }
+
+    .dp_item[data-position="2"] {
+        transform: rotateY(0deg) translateX(26%) translateY(-5%) scale(0.9);
+    }
+
+    .media-sign-width {
+        width: 30%;
+    }
+
+    .media-slider-padding {
+        padding: 0 0px 0 0;
+    }
+
+    .display-brand {
+        display: block;
+    }
+
+    #top-nav {
+        padding: 18px 0px 0 32%;
+    }
+
+    .text-setting {
+        top: 30px;
+    }
+
+    .main-banner-text {
+        font-size: 40px;
+    }
+
+    .main-banner-desc {
+        font-size: 22px;
+    }
+
+    .media-top-mt {
+        margin-top: 18px;
+    }
+
+    #header-nav {
+        padding: 0px 2px 0px 8px;
+    }
+
+    .sleep {
+        padding: 10px 15px 7px 8px;
+    }
+
+    .media-history-padding {
+        padding: 0rem;
+    }
+
+    .history-text {
+        font-size: 26px;
+    }
+
+    .heading-pera-text {
+        font-size: 15px;
+    }
+
+    .below-pera {
+        line-height: 1.7rem;
+    }
+
+    .media-cap-img-width {
+        text-align: center;
+        width: 100%;
+    }
+
+    .history-desc-text {
+        font-size: 15px;
+    }
+
+    .mt-100 {
+        margin-top: 40px;
+    }
+
+    .mt-60 {
+        margin-top: 30px;
+    }
+
+    #welcome {
+        padding: 38px 0;
+    }
+
+    .welcome-pera {
+        font-size: 18px;
+    }
+
+    .experience-text {
+        font-size: 18px;
+    }
+
+    .pharma-text {
+        font-size: 22px;
+    }
+
+    .welcome-sub-heading {
+        font-size: 16px;
+    }
+
+    .welcome-peragraph {
+        font-size: 16px;
+    }
+
+    .read-more-btn {
+        font-size: 15px;
+    }
+
+    .mt-90 {
+        margin-top: 20px;
+    }
+
+    .chosse-text {
+        font-size: 26px;
+    }
+
+    .chosse-pera {
+        font-size: 15px;
+    }
+
+    .chosse-heading {
+        font-size: 20px;
+    }
+
+
+    .d3-slider-img {
+        width: 300px;
+        height: 402px
+    }
+
+    #expert {
+        height: 141vh;
+        padding: 55px 14px 55px 0;
+    }
+
+    .media-expert-sliedr-mt {
+        margin-top: 30px;
+    }
+
+    .expert-text {
+        font-size: 25px;
+    }
+
+    .media-padding {
+        padding: 1rem;
+    }
+
+    .idea-text {
+        font-size: 21px;
+        letter-spacing: 2px;
+    }
+
+    .card-pera-text {
+        font-size: 14px;
+    }
+
+    .work-text {
+        font-size: 22px;
+    }
+
+    #contact-us {
+        padding: 35px 0;
+    }
+
+    .message-text {
+        font-size: 22px;
+    }
+
+    .contact-heading {
+        font-size: 22px;
+    }
+
+    .mt-80 {
+        margin-top: 20px;
+    }
+
+    .heading {
+        font-size: 16px;
+    }
+
+    .desc {
+        font-size: 16px;
+    }
+
+    .footer-bg-color {
+        padding: 20px 0;
+    }
+
+    .footer-text {
+        font-size: 16px;
+    }
+
+    .btn-contact {
+        width: 173px;
+        height: 49px;
+        font-size: 15px;
+        line-height: 36px;
+    }
+}
+
+@media screen and (max-width: 740px) and (orientation: landscape) {
+    .owl-carousel .owl-item img {
+        height: 105vh;
+        display: block;
+        width: 100%;
+    }
+
+    .dp_item[data-position="2"] {
+        transform: rotateY(0deg) translateX(26%) translateY(-5%) scale(0.9);
+    }
+
+    .media-sign-width {
+        width: 50%;
+    }
+
+    .media-slider-padding {
+        padding: 0 100px 0 0;
+    }
+
+    .display-brand {
+        display: block;
+    }
+
+    #top-nav {
+        padding: 18px 0px 0 32%;
+    }
+
+    .text-setting {
+        top: 30px;
+    }
+
+    .main-banner-text {
+        font-size: 40px;
+    }
+
+    .main-banner-desc {
+        font-size: 22px;
+    }
+
+    .media-top-mt {
+        margin-top: 18px;
+    }
+
+    #header-nav {
+        padding: 0px 2px 0px 8px;
+    }
+
+    .sleep {
+        padding: 10px 15px 7px 8px;
+    }
+
+    .media-history-padding {
+        padding: 1.5rem;
+    }
+
+    .history-text {
+        font-size: 26px;
+    }
+
+    .heading-pera-text {
+        font-size: 15px;
+    }
+
+    .below-pera {
+        line-height: 1.7rem;
+    }
+
+    .media-cap-img-width {
+        text-align: center;
+        width: 24%;
+    }
+
+    .history-desc-text {
+        font-size: 15px;
+    }
+
+    .mt-100 {
+        margin-top: 40px;
+    }
+
+    .mt-60 {
+        margin-top: 30px;
+    }
+
+    #welcome {
+        padding: 38px 0;
+    }
+
+    .welcome-pera {
+        font-size: 18px;
+    }
+
+    .experience-text {
+        font-size: 18px;
+    }
+
+    .pharma-text {
+        font-size: 27px;
+    }
+
+    .welcome-sub-heading {
+        font-size: 16px;
+    }
+
+    .welcome-peragraph {
+        font-size: 16px;
+    }
+
+    .read-more-btn {
+        font-size: 15px;
+    }
+
+    .mt-90 {
+        margin-top: 20px;
+    }
+
+    .chosse-text {
+        font-size: 26px;
+    }
+
+    .chosse-pera {
+        font-size: 15px;
+    }
+
+    .chosse-heading {
+        font-size: 20px;
+    }
+
+
+    .d3-slider-img {
+        width: 370px;
+        height: 240px
+    }
+
+    #expert {
+        height: 230vh;
+        padding: 55px 14px 55px 0;
+    }
+
+    .media-expert-sliedr-mt {
+        margin-top: 30px;
+    }
+
+    .expert-text {
+        font-size: 25px;
+    }
+
+    .media-padding {
+        padding: 1rem;
+    }
+
+    .work-text {
+        padding: 1rem;
+        font-size: 25px;
+    }
+
+    #contact-us {
+        padding: 35px 0;
+    }
+
+    .message-text {
+        font-size: 22px;
+    }
+
+    .contact-heading {
+        font-size: 22px;
+    }
+
+    .mt-80 {
+        margin-top: 20px;
+    }
+
+    .heading {
+        font-size: 18px;
+    }
+
+    .desc {
+        font-size: 18px;
+    }
+
+    .footer-bg-color {
+        padding: 20px 0;
+    }
+
+    .footer-text {
+        font-size: 16px;
+    }
+
+    .btn-contact {
+        width: 173px;
+        height: 49px;
+        font-size: 15px;
+        line-height: 36px;
+    }
+}
+
+@media screen and (max-width: 736px) and (orientation: landscape) {
+    .owl-carousel .owl-item img {
+        height: 100vh;
+        display: block;
+        width: 100%;
+    }
+
+    .dp_item[data-position="2"] {
+        transform: rotateY(0deg) translateX(26%) translateY(-5%) scale(0.9);
+    }
+
+    .media-sign-width {
+        width: 50%;
+    }
+
+    .media-slider-padding {
+        padding: 0 100px 0 0;
+    }
+
+    .display-brand {
+        display: block;
+    }
+
+    #top-nav {
+        padding: 18px 0px 0 32%;
+    }
+
+    .text-setting {
+        top: 30px;
+    }
+
+    .main-banner-text {
+        font-size: 40px;
+    }
+
+    .main-banner-desc {
+        font-size: 22px;
+    }
+
+    .media-top-mt {
+        margin-top: 18px;
+    }
+
+    #header-nav {
+        padding: 0px 2px 0px 8px;
+    }
+
+    .sleep {
+        padding: 10px 15px 7px 8px;
+    }
+
+    .media-history-padding {
+        padding: 1.5rem;
+    }
+
+    .history-text {
+        font-size: 26px;
+    }
+
+    .heading-pera-text {
+        font-size: 15px;
+    }
+
+    .below-pera {
+        line-height: 1.7rem;
+    }
+
+    .media-cap-img-width {
+        text-align: center;
+        width: 24%;
+    }
+
+    .history-desc-text {
+        font-size: 15px;
+    }
+
+    .mt-100 {
+        margin-top: 40px;
+    }
+
+    .mt-60 {
+        margin-top: 30px;
+    }
+
+    #welcome {
+        padding: 38px 0;
+    }
+
+    .welcome-pera {
+        font-size: 18px;
+    }
+
+    .experience-text {
+        font-size: 18px;
+    }
+
+    .pharma-text {
+        font-size: 27px;
+    }
+
+    .welcome-sub-heading {
+        font-size: 16px;
+    }
+
+    .welcome-peragraph {
+        font-size: 16px;
+    }
+
+    .read-more-btn {
+        font-size: 15px;
+    }
+
+    .mt-90 {
+        margin-top: 20px;
+    }
+
+    .chosse-text {
+        font-size: 26px;
+    }
+
+    .chosse-pera {
+        font-size: 15px;
+    }
+
+    .chosse-heading {
+        font-size: 20px;
+    }
+
+
+    .d3-slider-img {
+        width: 370px;
+        height: 240px
+    }
+
+    #expert {
+        height: 203vh;
+        padding: 55px 14px 55px 0;
+    }
+
+    .media-expert-sliedr-mt {
+        margin-top: 30px;
+    }
+
+    .expert-text {
+        font-size: 25px;
+    }
+
+    .media-padding {
+        padding: 1rem;
+    }
+
+    .work-text {
+        padding: 1rem;
+        font-size: 25px;
+    }
+
+    #contact-us {
+        padding: 35px 0;
+    }
+
+    .message-text {
+        font-size: 22px;
+    }
+
+    .contact-heading {
+        font-size: 22px;
+    }
+
+    .mt-80 {
+        margin-top: 20px;
+    }
+
+    .heading {
+        font-size: 18px;
+    }
+
+    .desc {
+        font-size: 18px;
+    }
+
+    .footer-bg-color {
+        padding: 20px 0;
+    }
+
+    .footer-text {
+        font-size: 16px;
+    }
+
+    .btn-contact {
+        width: 173px;
+        height: 49px;
+        font-size: 15px;
+        line-height: 36px;
+    }
+}
+
+@media screen and (max-width: 731px) and (orientation: landscape) {
+    .owl-carousel .owl-item img {
+        height: 100vh;
+        display: block;
+        width: 100%;
+    }
+
+    .dp_item[data-position="2"] {
+        transform: rotateY(0deg) translateX(26%) translateY(-5%) scale(0.9);
+    }
+
+    .media-sign-width {
+        width: 50%;
+    }
+
+    .media-slider-padding {
+        padding: 0 100px 0 0;
+    }
+
+    .display-brand {
+        display: block;
+    }
+
+    #top-nav {
+        padding: 18px 0px 0 32%;
+    }
+
+    .text-setting {
+        top: 30px;
+    }
+
+    .main-banner-text {
+        font-size: 40px;
+    }
+
+    .main-banner-desc {
+        font-size: 22px;
+    }
+
+    .media-top-mt {
+        margin-top: 18px;
+    }
+
+    #header-nav {
+        padding: 0px 2px 0px 8px;
+    }
+
+    .sleep {
+        padding: 10px 15px 7px 8px;
+    }
+
+    .media-history-padding {
+        padding: 1.5rem;
+    }
+
+    .history-text {
+        font-size: 26px;
+    }
+
+    .heading-pera-text {
+        font-size: 15px;
+    }
+
+    .below-pera {
+        line-height: 1.7rem;
+    }
+
+    .media-cap-img-width {
+        text-align: center;
+        width: 24%;
+    }
+
+    .history-desc-text {
+        font-size: 15px;
+    }
+
+    .mt-100 {
+        margin-top: 40px;
+    }
+
+    .mt-60 {
+        margin-top: 30px;
+    }
+
+    #welcome {
+        padding: 38px 0;
+    }
+
+    .welcome-pera {
+        font-size: 18px;
+    }
+
+    .experience-text {
+        font-size: 18px;
+    }
+
+    .pharma-text {
+        font-size: 27px;
+    }
+
+    .welcome-sub-heading {
+        font-size: 16px;
+    }
+
+    .welcome-peragraph {
+        font-size: 16px;
+    }
+
+    .read-more-btn {
+        font-size: 15px;
+    }
+
+    .mt-90 {
+        margin-top: 20px;
+    }
+
+    .chosse-text {
+        font-size: 26px;
+    }
+
+    .chosse-pera {
+        font-size: 15px;
+    }
+
+    .chosse-heading {
+        font-size: 20px;
+    }
+
+
+    .d3-slider-img {
+        width: 370px;
+        height: 240px
+    }
+
+    #expert {
+        height: 203vh;
+        padding: 55px 14px 55px 0;
+    }
+
+    .media-expert-sliedr-mt {
+        margin-top: 30px;
+    }
+
+    .expert-text {
+        font-size: 25px;
+    }
+
+    .media-padding {
+        padding: 1rem;
+    }
+
+    .work-text {
+        padding: 1rem;
+        font-size: 25px;
+    }
+
+    #contact-us {
+        padding: 35px 0;
+    }
+
+    .message-text {
+        font-size: 22px;
+    }
+
+    .contact-heading {
+        font-size: 22px;
+    }
+
+    .mt-80 {
+        margin-top: 20px;
+    }
+
+    .heading {
+        font-size: 18px;
+    }
+
+    .desc {
+        font-size: 18px;
+    }
+
+    .footer-bg-color {
+        padding: 20px 0;
+    }
+
+    .footer-text {
+        font-size: 16px;
+    }
+
+    .btn-contact {
+        width: 173px;
+        height: 49px;
+        font-size: 15px;
+        line-height: 36px;
+    }
+}
+
+@media screen and (max-width: 667px) and (orientation: landscape) {
+    .owl-carousel .owl-item img {
+        height: 106vh;
+        display: block;
+        width: 100%;
+    }
+
+    .media-slider-padding {
+        padding: 0 40px 0 0;
+    }
+
+    .display-brand {
+        display: block;
+    }
+
+    #top-nav {
+        padding: 18px 0px 0 32%;
+    }
+
+    .text-setting {
+        top: 30px;
+    }
+
+    .main-banner-text {
+        font-size: 40px;
+    }
+
+    .main-banner-desc {
+        font-size: 22px;
+    }
+
+    .media-top-mt {
+        margin-top: 18px;
+    }
+
+    #header-nav {
+        padding: 0px 2px 0px 8px;
+    }
+
+    .sleep {
+        padding: 10px 15px 7px 8px;
+    }
+
+    .media-history-padding {
+        padding: 1.5rem;
+    }
+
+    .history-text {
+        font-size: 26px;
+    }
+
+    .heading-pera-text {
+        font-size: 15px;
+    }
+
+    .below-pera {
+        line-height: 1.7rem;
+    }
+
+    .media-cap-img-width {
+        text-align: center;
+        width: 24%;
+    }
+
+    .history-desc-text {
+        font-size: 15px;
+    }
+
+    .mt-100 {
+        margin-top: 40px;
+    }
+
+    .mt-60 {
+        margin-top: 30px;
+    }
+
+    #welcome {
+        padding: 38px 0;
+    }
+
+    .welcome-pera {
+        font-size: 18px;
+    }
+
+    .experience-text {
+        font-size: 18px;
+    }
+
+    .pharma-text {
+        font-size: 27px;
+    }
+
+    .welcome-sub-heading {
+        font-size: 16px;
+    }
+
+    .welcome-peragraph {
+        font-size: 16px;
+    }
+
+    .read-more-btn {
+        font-size: 15px;
+    }
+
+    .mt-90 {
+        margin-top: 20px;
+    }
+
+    .chosse-text {
+        font-size: 26px;
+    }
+
+    .chosse-pera {
+        font-size: 15px;
+    }
+
+    .chosse-heading {
+        font-size: 20px;
+    }
+
+
+    .d3-slider-img {
+        width: 370px;
+        height: 240px
+    }
+
+    #expert {
+        height: 224vh;
+        padding: 55px 14px 55px 0;
+    }
+
+    .media-expert-sliedr-mt {
+        margin-top: 30px;
+    }
+
+    .expert-text {
+        font-size: 25px;
+    }
+
+    .media-padding {
+        padding: 1rem;
+    }
+
+    .work-text {
+        padding: 1rem;
+        font-size: 25px;
+    }
+
+    #contact-us {
+        padding: 35px 0;
+    }
+
+    .message-text {
+        font-size: 22px;
+    }
+
+    .contact-heading {
+        font-size: 22px;
+    }
+
+    .mt-80 {
+        margin-top: 20px;
+    }
+
+    .heading {
+        font-size: 18px;
+    }
+
+    .desc {
+        font-size: 18px;
+    }
+
+    .footer-bg-color {
+        padding: 20px 0;
+    }
+
+    .footer-text {
+        font-size: 16px;
+    }
+
+    .btn-contact {
+        width: 173px;
+        height: 49px;
+        font-size: 15px;
+        line-height: 36px;
+    }
+}
+
+@media screen and (max-width: 640px) and (orientation: landscape) {
+    .owl-carousel .owl-item img {
+        height: 122vh;
+        display: block;
+        width: 100%;
+    }
+
+    .media-slider-padding {
+        padding: 0 40px 0 0;
+    }
+
+    .display-brand {
+        display: block;
+    }
+
+    #top-nav {
+        padding: 18px 0px 0 32%;
+    }
+
+    .text-setting {
+        top: 30px;
+    }
+
+    .main-banner-text {
+        font-size: 40px;
+    }
+
+    .main-banner-desc {
+        font-size: 22px;
+    }
+
+    .media-top-mt {
+        margin-top: 18px;
+    }
+
+    #header-nav {
+        padding: 0px 2px 0px 8px;
+    }
+
+    .sleep {
+        padding: 10px 15px 7px 8px;
+    }
+
+    .media-history-padding {
+        padding: 1.5rem;
+    }
+
+    .history-text {
+        font-size: 26px;
+    }
+
+    .heading-pera-text {
+        font-size: 15px;
+    }
+
+    .below-pera {
+        line-height: 1.7rem;
+    }
+
+    .media-cap-img-width {
+        text-align: center;
+        width: 24%;
+    }
+
+    .history-desc-text {
+        font-size: 15px;
+    }
+
+    .mt-100 {
+        margin-top: 40px;
+    }
+
+    .mt-60 {
+        margin-top: 30px;
+    }
+
+    #welcome {
+        padding: 38px 0;
+    }
+
+    .welcome-pera {
+        font-size: 18px;
+    }
+
+    .experience-text {
+        font-size: 18px;
+    }
+
+    .pharma-text {
+        font-size: 27px;
+    }
+
+    .welcome-sub-heading {
+        font-size: 16px;
+    }
+
+    .welcome-peragraph {
+        font-size: 16px;
+    }
+
+    .read-more-btn {
+        font-size: 15px;
+    }
+
+    .mt-90 {
+        margin-top: 20px;
+    }
+
+    .chosse-text {
+        font-size: 26px;
+    }
+
+    .chosse-pera {
+        font-size: 15px;
+    }
+
+    .chosse-heading {
+        font-size: 20px;
+    }
+
+
+    .d3-slider-img {
+        width: 370px;
+        height: 240px
+    }
+
+    #expert {
+        height: 234vh;
+        padding: 55px 14px 55px 0;
+    }
+
+    .media-expert-sliedr-mt {
+        margin-top: 30px;
+    }
+
+    .expert-text {
+        font-size: 25px;
+    }
+
+    .media-padding {
+        padding: 1rem;
+    }
+
+    .work-text {
+        padding: 1rem;
+        font-size: 25px;
+    }
+
+    #contact-us {
+        padding: 35px 0;
+    }
+
+    .message-text {
+        font-size: 22px;
+    }
+
+    .contact-heading {
+        font-size: 22px;
+    }
+
+    .mt-80 {
+        margin-top: 20px;
+    }
+
+    .heading {
+        font-size: 18px;
+    }
+
+    .desc {
+        font-size: 18px;
+    }
+
+    .footer-bg-color {
+        padding: 20px 0;
+    }
+
+    .footer-text {
+        font-size: 16px;
+    }
+
+    .btn-contact {
+        width: 173px;
+        height: 49px;
+        font-size: 15px;
+        line-height: 36px;
+    }
+}
