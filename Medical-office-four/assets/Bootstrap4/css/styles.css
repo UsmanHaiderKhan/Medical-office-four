@@ -1,4 +1,4 @@
-﻿/*================================= 
+﻿/*=================================
         Font-Family's Start
   =================================*/
 @font-face {
@@ -42,7 +42,7 @@
 }
 
 
-/*================================= 
+/*=================================
         Font-Family's End
   =================================*/
 
@@ -54,7 +54,7 @@ html, body {
     -moz-osx-font-smoothing: grayscale;
     scroll-behavior: smooth;
 }
-/*================================= 
+/*=================================
      Top Navbar Section Styling
   =================================*/
 #top-nav {
@@ -108,7 +108,7 @@ html, body {
 #top-nav [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
     margin-left: 0;
 }
-/*================================= 
+/*=================================
           Navbar Styling
   =================================*/
 #header-nav {
@@ -157,7 +157,7 @@ html, body {
     color: #6c6c6c;
     font-size: 20px;
     font-weight: 400;
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-family: 'Prometo Regular';
 }
 
@@ -193,7 +193,7 @@ html, body {
 
 .nav-item {
     position: relative;
-    padding: 0 10px;
+    padding: 0 21px;
 }
 
 .fixed-top.scrolled {
@@ -291,7 +291,7 @@ html, body {
     left: 0;
     right: 0;
 }
-/*================================= 
+/*=================================
       History Section Styling
   =================================*/
 .history-text {
@@ -346,7 +346,7 @@ html, body {
     text-transform: uppercase;
     font-family: 'Prometo Bold';
 }
-/*================================= 
+/*=================================
       Welcome Section Styling
   =================================*/
 #welcome {
@@ -451,7 +451,7 @@ html, body {
 .arrow-style {
     font-size: 20px;
 }
-/*================================= 
+/*=================================
      Chosse Section Styling
   =================================*/
 #why-chosse {
@@ -486,7 +486,7 @@ html, body {
     font-weight: 600;
     font-family: 'Open Sans', sans-serif;
 }
-/*================================= 
+/*=================================
       Expert Section Styling
   =================================*/
 #expert {
@@ -595,7 +595,7 @@ html, body {
     transform: rotateY(0deg) translateX(39%) translateY(-9%) scale(0.8);
 }
 
-/*================================= 
+/*=================================
         Work Section Styling
   =================================*/
 #work {
@@ -701,7 +701,7 @@ html, body {
 #work .work-card:hover .card-pera-text {
     color: #48443b;
 }
-/*================================= 
+/*=================================
      News & Blog Section Styling
   =================================*/
 .news-pera-text {
@@ -745,7 +745,7 @@ html, body {
     font-size: 21px;
     font-family: 'Prometo Medium';
 }
-/*================================= 
+/*=================================
     Contact-us Section Styling
   =================================*/
 #contact-us {
@@ -879,7 +879,7 @@ html, body {
     font-family: 'Prometo Medium';
 }
 
-/*================================= 
+/*=================================
           Read More Styling
   =================================*/
 .comments-space {
@@ -1286,6 +1286,14 @@ button:focus {
 @media screen and (max-width: 1024px) {
     .display-brand {
         display: none;
+    }
+
+    .nav-item {
+        padding: 0 15px;
+    }
+
+    .media-margin-right {
+        margin-right: auto;
     }
 
     .owl-carousel .owl-item img {
@@ -1699,7 +1707,7 @@ button:focus {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
     .owl-carousel .owl-item img {
         height: 42vh;
         display: block;
@@ -1903,7 +1911,7 @@ button:focus {
     }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 415px) {
     .mt-60 {
         margin-top: 35px;
     }
@@ -2293,7 +2301,7 @@ button:focus {
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 376px) {
     .mt-60 {
         margin-top: 35px;
     }
@@ -2423,7 +2431,7 @@ button:focus {
     }
 
     #expert {
-        height: 108vh;
+        height: 116vh;
         padding: 55px 14px 55px 0;
     }
 
@@ -2484,7 +2492,7 @@ button:focus {
     }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 361px) {
     .mt-60 {
         margin-top: 35px;
     }
@@ -2700,7 +2708,7 @@ button:focus {
     }
 }
 
-@media screen and (max-width: 823px) and (orientation: landscape) {
+@media screen and (max-width: 824px) and (orientation: landscape) {
     .owl-carousel .owl-item img {
         height: 110vh;
         display: block;
@@ -3296,7 +3304,7 @@ button:focus {
     }
 }
 
-@media screen and (max-width: 731px) and (orientation: landscape) {
+@media screen and (max-width: 732px) and (orientation: landscape) {
     .owl-carousel .owl-item img {
         height: 100vh;
         display: block;
@@ -3492,7 +3500,7 @@ button:focus {
     }
 }
 
-@media screen and (max-width: 667px) and (orientation: landscape) {
+@media screen and (max-width: 668px) and (orientation: landscape) {
     .owl-carousel .owl-item img {
         height: 106vh;
         display: block;
@@ -3680,7 +3688,7 @@ button:focus {
     }
 }
 
-@media screen and (max-width: 640px) and (orientation: landscape) {
+@media screen and (max-width: 641px) and (orientation: landscape) {
     .owl-carousel .owl-item img {
         height: 122vh;
         display: block;
